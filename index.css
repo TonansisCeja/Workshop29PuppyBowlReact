@@ -1,0 +1,93 @@
+* {
+  font-family: arial, sans-serif;
+  margin: 0;
+}
+
+body,
+body > div {
+  background-color: rgb(15, 94, 197);
+ 
+  margin:0;
+  height: 40vh;
+  width: 100vw;
+  padding-bottom:20px;
+}
+
+#container {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+#container > div {
+  display: flex;
+  font-size: 35px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#navbar {
+  padding: 2em;
+  justify-content: space-evenly;
+
+}
+
+
+
+#main-section {
+  flex-grow: 1;
+}
+
+#main-section > div {
+
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.Allplayers {
+  background-color:rgb(217, 226, 230);
+  border-style: groove;
+  border-width: 20px;
+  color:navy;
+  height:800px;
+  width: 600px;
+}
+.NewPlayerForm{
+  background-color:rgb(217, 226, 230);
+  border-style: groove;
+  border-width: 20px;
+  color:navy;
+  height:800px;
+  width: 600px;
+
+}
+
+.Search{
+  background-color:rgb(217, 226, 230);
+  border-style: groove;
+  border-width: 20px;
+  color:navy;
+  height:800px;
+  width: 600px;
+}
+
+.Home{
+  background-image: url(assets/puppybowl3.jpg);
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-attachment:fixed;
+  border-style: groove;
+  border-width: 20px;
+  color :navy;
+  height:830px;
+  width: 600px;
+  
+}
+
+
